@@ -1,5 +1,5 @@
 //
-//  PantryViewController.h
+//  UIColor+pantryColors.h
 //  Pantry
 //
 //  Created by Dylan Moore on 8/5/14.
@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PantryViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface UIColor (PantryColors)
+
++(UIColor*)pantryGreen;
+
++(UIColor*)pantryRed;
+
++(UIColor*)pantryYellow;
 
 @end
